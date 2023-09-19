@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Arlindo Rosas - Expoflora 2023</title>
+</head>
+
+<body>
+    <header>
+        <section class="menu">
+            <button onclick="window.location.href='./index.html'">Home</button>
+            <button onclick="window.location.href='./promocoes.html'">Promoções</button>
+            <button onclick="window.location.href='./contato.html'">Contato</button>
+        </section>
+        <section class="titulo">
+            <img class="icone" src="./icone.png" alt="Rosa">
+            <h1>Estande Arlindo Rosas</h1>
+            <img class="icone" src="./icone.png" alt="Rosa">
+        </section>
+    </header>
+    <main>
+        <h2>Formulario de contato:</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"  required>
+            <label for="telefone">Telefone:</label>
+            <input type="tel"  placeholder="19-45678-7897" name="telefone" id="telefone" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" required>
+            <label for="msg">Mensagem:</label>
+            <textarea name="msg" id="msg"  required></textarea>
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <h2>Encontrenos durante o evento. Estamos logo na entrada.</h2>
+    </footer>
+</body>
+
+</html>
